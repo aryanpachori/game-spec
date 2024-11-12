@@ -31,10 +31,10 @@ model Space {
   thumbnail    String?
   creatorId    String
   creator      User            @relation(fields: [creatorId], references: [id])
-  spaceElement spaceElements[]
+  spaceElement SpaceElements[]
 }
 
-model spaceElements {
+model SpaceElements {
   id        String  @id @unique @default(cuid())
   elementId String
   spaceId   String
@@ -49,24 +49,26 @@ model Element {
   width        Int
   height       Int
   imageUrl     String
-  spaceElement spaceElements[]
-  mapElement   mapElements[]
+  spaceElement SpaceElements[]
+  mapElement   MapElements[]
 }
 
 model Map {
-  id     String @id @unique @default(cuid())
-  width  Int
-  height Int
-  name   String
+  id         String        @id @unique @default(cuid())
+  width      Int
+  height     Int
+  name       String
+  mapElement MapElements[]
 }
 
-model mapElements {
+model MapElements {
   id        String  @id @unique @default(cuid())
   mapId     String
   elementId String
   x         Int?
   y         Int?
   element   Element @relation(fields: [elementId], references: [id])
+  map       Map     @relation(fields: [mapId], references: [id])
 }
 
 model Avatar {
