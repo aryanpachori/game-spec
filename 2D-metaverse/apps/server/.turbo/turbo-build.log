@@ -1,5 +1,0 @@
-[?25l[2J[m[H]0;npm[?25h]0;npm prefix]0;npm]0;npm run build[?25l
-> server@1.0.0 build
-> npx esbuild src/index.ts --bundle --outfile=dist/index.js --platform=node --tsconfig=tsconfig.json[5;1H[K[?25h]0;npm]0;npm prefix]0;npm]0;npm exec esbuild src/index.ts --bundle --outfile=dist/index.js --platform=node --tsconfig=tsconfig.json[K]0;C:\WINDOWS\system32\cmd.exe [?25l
-  dist\[38;5;15mindex.js  [38;5;3m1.7mb[38;5;2m[8;1HDone in 88ms[m
-[K[?25h[K
