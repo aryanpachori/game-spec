@@ -1,0 +1,357 @@
+[?25l[2J[m[H]0;npm[?25h]0;npm prefix]0;npm]0;npm run build[?25l
+> client@0.1.0 build
+> next build[5;1H[K[?25h]0;C:\WINDOWS\system32\cmd.exe  [33m[1m⚠[m Found lockfile missing swc dependencies, patching...
+[?25lerror This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.[8;1HPresence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+[?25herror This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+ [31m[1m⨯[m Failed to patch lockfile, please try uninstalling and reinstalling next in this workspace[K
+Error: Failed to get registry from "yarn".
+    at getRegistry [90m(C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\[mnode_modules\[4mnext[24m\dist\lib\helpers\get-registry.js:34:15[90m)       [12;1H[m
+    at fetchPkgInfo [90m(C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\[mnode_modules\[4mnext[24m\dist\lib\patch-incorrect-lockfile.js:65:60[90m)  [12;1H[m
+    at <unknown> [90m(C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\[mnode_modules\[4mnext[24m\dist\lib\patch-incorrect-lockfile.js:162:70[90m)    [12;1H[m
+    at Array.map (<anonymous>)
+    at patchIncorrectLockfile [90m(C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\[mnode_modules\[4mnext[24m\dist\lib\patch-incorrect-lockfile.j
+[11;150Hjs:162:59[90m) [m{[K
+  [cause]: Error: Command failed: yarn config get registry
+  error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+  Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official No
+[11;150Hode.js distributions starting from 16.9 and 14.19.
+  Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.       
+
+      at getRegistry [90m(C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\[mnode_modules\[4mnext[24m\dist\lib\helpers\get-registry.js:24:52[90m)     [12;1H[m
+      at fetchPkgInfo [90m(C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\[mnode_modules\[4mnext[24m\dist\lib\patch-incorrect-lockfile.js:65:60[90m)[12;1H[m
+      at <unknown> [90m(C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\[mnode_modules\[4mnext[24m\dist\lib\patch-incorrect-lockfile.js:162:70[90m)  [12;1H[m
+      at Array.map (<anonymous>)
+      at patchIncorrectLockfile [90m(C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\[mnode_modules\[4mnext[24m\dist\lib\patch-incorrect-lockfile
+[11;150He.js:162:59[90m) [m{[K
+    status: [33m1[m,[K
+    signal: [1mnull[22m,[K
+    output: [
+      [1mnull[22m,[K
+      <Buffer >,
+      <Buffer 65 72 72 6f 72 20 54 68 69 73 20 70 72 6f 6a 65 63 74 27 73 20 70 61 63 6b 61 67 65 2e 6a 73 6f 6e 20 64 65 66 69 6e 65 73 20 22 70 61 6
+[11;150H63 6b 61 67 65 ... 425 more bytes>
+    ],
+    pid: [33m27812[m,[K
+    stdout: <Buffer >,
+    stderr: <Buffer 65 72 72 6f 72 20 54 68 69 73 20 70 72 6f 6a 65 63 74 27 73 20 70 61 63 6b 61 67 65 2e 6a 73 6f 6e 20 64 65 66 69 6e 65 73 20 22 7
+[11;150H70 61 63 6b 61 67 65 ... 425 more bytes>
+  }
+}
+   [38;2;173;127;168m[1m▲ Next.js 15.0.3[m
+
+ [37m[1m [m Creating an optimized production build ...
+ ⚠ Found lockfile missing swc dependencies, patching...
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+ ⨯ Failed to patch lockfile, please try uninstalling and reinstalling next in this workspace
+Error: Failed to get registry from "yarn".
+    at getRegistry (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\next\dist\lib\helpers\get-registry.js:34:15)       
+    at fetchPkgInfo (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\next\dist\lib\patch-incorrect-lockfile.js:65:60)  
+    at <unknown> (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\next\dist\lib\patch-incorrect-lockfile.js:162:70)    
+    at Array.map (<anonymous>)
+    at patchIncorrectLockfile (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\next\dist\lib\patch-incorrect-lockfile.j
+[11;150Hjs:162:59) {
+  [cause]: Error: Command failed: yarn config get registry
+  error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+  Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official No
+[11;150Hode.js distributions starting from 16.9 and 14.19.
+  Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.       
+
+      at getRegistry (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\next\dist\lib\helpers\get-registry.js:24:52)     
+      at fetchPkgInfo (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\next\dist\lib\patch-incorrect-lockfile.js:65:60)[12;1H
+      at <unknown> (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\next\dist\lib\patch-incorrect-lockfile.js:162:70)  
+      at Array.map (<anonymous>)
+      at patchIncorrectLockfile (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\next\dist\lib\patch-incorrect-lockfile
+[11;150He.js:162:59) {
+    status: 1,
+    signal: null,
+    output: [
+      null,
+      <Buffer >,
+      <Buffer 65 72 72 6f 72 20 54 68 69 73 20 70 72 6f 6a 65 63 74 27 73 20 70 61 63 6b 61 67 65 2e 6a 73 6f 6e 20 64 65 66 69 6e 65 73 20 22 70 61 6
+[11;150H63 6b 61 67 65 ... 425 more bytes>
+    ],
+    pid: 32100,
+    stdout: <Buffer >,
+    stderr: <Buffer 65 72 72 6f 72 20 54 68 69 73 20 70 72 6f 6a 65 63 74 27 73 20 70 61 63 6b 61 67 65 2e 6a 73 6f 6e 20 64 65 66 69 6e 65 73 20 22 7
+[11;150H70 61 63 6b 61 67 65 ... 425 more bytes>
+  }
+}
+ ⚠ Found lockfile missing swc dependencies, patching...
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+ ⨯ Failed to patch lockfile, please try uninstalling and reinstalling next in this workspace
+Error: Failed to get registry from "yarn".
+    at getRegistry (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\next\dist\lib\helpers\get-registry.js:34:15)       
+    at fetchPkgInfo (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\next\dist\lib\patch-incorrect-lockfile.js:65:60)  
+    at <unknown> (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\next\dist\lib\patch-incorrect-lockfile.js:162:70)    
+    at Array.map (<anonymous>)
+    at patchIncorrectLockfile (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\next\dist\lib\patch-incorrect-lockfile.j
+[11;150Hjs:162:59) {
+  [cause]: Error: Command failed: yarn config get registry
+  error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+  Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official No
+[11;150Hode.js distributions starting from 16.9 and 14.19.
+  Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.       
+
+      at getRegistry (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\next\dist\lib\helpers\get-registry.js:24:52)     
+      at fetchPkgInfo (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\next\dist\lib\patch-incorrect-lockfile.js:65:60)[12;1H
+      at <unknown> (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\next\dist\lib\patch-incorrect-lockfile.js:162:70)  
+      at Array.map (<anonymous>)
+      at patchIncorrectLockfile (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\next\dist\lib\patch-incorrect-lockfile
+[11;150He.js:162:59) {
+    status: 1,
+    signal: null,
+    output: [
+      null,
+      <Buffer >,
+      <Buffer 65 72 72 6f 72 20 54 68 69 73 20 70 72 6f 6a 65 63 74 27 73 20 70 61 63 6b 61 67 65 2e 6a 73 6f 6e 20 64 65 66 69 6e 65 73 20 22 70 61 6
+[11;150H63 6b 61 67 65 ... 425 more bytes>
+    ],
+    pid: 7780,
+    stdout: <Buffer >,
+    stderr: <Buffer 65 72 72 6f 72 20 54 68 69 73 20 70 72 6f 6a 65 63 74 27 73 20 70 61 63 6b 61 67 65 2e 6a 73 6f 6e 20 64 65 66 69 6e 65 73 20 22 7
+[11;150H70 61 63 6b 61 67 65 ... 425 more bytes>
+  }
+}
+ ⚠ Found lockfile missing swc dependencies, patching...
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official Node
+[11;150He.js distributions starting from 16.9 and 14.19.
+Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.
+ ⨯ Failed to patch lockfile, please try uninstalling and reinstalling next in this workspace
+Error: Failed to get registry from "yarn".
+    at getRegistry (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\next\dist\lib\helpers\get-registry.js:34:15)       
+    at fetchPkgInfo (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\next\dist\lib\patch-incorrect-lockfile.js:65:60)  
+    at <unknown> (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\next\dist\lib\patch-incorrect-lockfile.js:162:70)    
+    at Array.map (<anonymous>)
+    at patchIncorrectLockfile (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\next\dist\lib\patch-incorrect-lockfile.j
+[11;150Hjs:162:59) {
+  [cause]: Error: Command failed: yarn config get registry
+  error This project's package.json defines "packageManager": "yarn@npm@10.8.3". However the current global version of Yarn is 1.22.22.
+
+  Presence of the "packageManager" field indicates that the project is meant to be used with Corepack, a tool included by default with all official No
+[11;150Hode.js distributions starting from 16.9 and 14.19.
+  Corepack must currently be enabled by running corepack enable in your terminal. For more information, check out https://yarnpkg.com/corepack.       
+
+      at getRegistry (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\next\dist\lib\helpers\get-registry.js:24:52)     
+      at fetchPkgInfo (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\next\dist\lib\patch-incorrect-lockfile.js:65:60)[12;1H
+      at <unknown> (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\next\dist\lib\patch-incorrect-lockfile.js:162:70)  
+      at Array.map (<anonymous>)
+      at patchIncorrectLockfile (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\next\dist\lib\patch-incorrect-lockfile
+[11;150He.js:162:59) {
+    status: 1,
+    signal: null,
+    output: [
+      null,
+      <Buffer >,
+      <Buffer 65 72 72 6f 72 20 54 68 69 73 20 70 72 6f 6a 65 63 74 27 73 20 70 61 63 6b 61 67 65 2e 6a 73 6f 6e 20 64 65 66 69 6e 65 73 20 22 70 61 6
+[11;150H63 6b 61 67 65 ... 425 more bytes>
+    ],
+    pid: 26172,
+    stdout: <Buffer >,
+    stderr: <Buffer 65 72 72 6f 72 20 54 68 69 73 20 70 72 6f 6a 65 63 74 27 73 20 70 61 63 6b 61 67 65 2e 6a 73 6f 6e 20 64 65 66 69 6e 65 73 20 22 7
+[11;150H70 61 63 6b 61 67 65 ... 425 more bytes>
+  }
+}
+ [32m[1m✓[m Compiled successfully
+ [37m[1m [m Linting and checking validity of types  [36m.[K[?25l[106C[m [37m[1m [m Linting and checking validity of types  [36m..[K[105C[m [37m[1m [m Linting and checking validity of types  [36m...[K[104C[m [37m[1m [m Linting and checking validity of types  [36m.[K[106C[m [37m[1m [m Linting and checking validity of types  [36m..[K[105C[m [37m[1m [m Linting and checking validity of types  [36m...[K[104C[m [37m[1m [m Linting and checking validity of types  [36m.[K[106C[m [37m[1m [m Linting and checking validity of types  [36m..[K[105C[m [37m[1m [m Linting and checking validity of types  [36m...[K[104C[m [37m[1m [m Linting and checking validity of types  [36m.[K[106C[m [37m[1m [m Linting and checking validity of types  [36m..[K[105C[m [37m[1m [m Linting and checking validity of types  [36m...[K[104C[m [37m[1m [m Linting and checking validity of types  [36m.[K[106C[m [32m[1m✓[m Linting and checking validity of types[K[?25h
+ [37m[1m [m Collecting page data  [36m.[K[?25l[124C[m [37m[1m [m Collecting page data  [36m..[K[123C[m [37m[1m [m Collecting page data  [36m...[K[122C[m [32m[1m✓[m Collecting page data[K[?25h
+ [37m[1m [m Generating static pages (0/5)  [36m[    ][?25l[mTypeError: Cannot read properties of null (reading 'useContext')[K[?25h
+    at exports.useContext (C:\Users\aryan\Web Development\game-spec\2D-metaverse\node_modules\react\cjs\react.production.min.js:24:495)
+    at StyleRegistry (C:\Users\aryan\Web Development\game-spec\2D-metaverse\node_modules\styled-jsx\dist\index\index.js:450:30)
+    at renderWithHooks (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\react-dom\cjs\react-dom-server.edge.production.
+[11;150H.js:4189:18)
+    at renderElement (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\react-dom\cjs\react-dom-server.edge.production.js
+[11;150Hs:4327:14)
+    at retryNode (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\react-dom\cjs\react-dom-server.edge.production.js:487
+[11;150H71:16)
+    at renderNodeDestructive (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\react-dom\cjs\react-dom-server.edge.produ
+[11;150Huction.js:4689:7)
+    at renderElement (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\react-dom\cjs\react-dom-server.edge.production.js
+[11;150Hs:4623:11)
+    at retryNode (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\react-dom\cjs\react-dom-server.edge.production.js:487
+[11;150H71:16)
+    at renderNodeDestructive (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\react-dom\cjs\react-dom-server.edge.produ
+[11;150Huction.js:4689:7)
+    at renderElement (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\react-dom\cjs\react-dom-server.edge.production.js
+[11;150Hs:4623:11)
+Error occurred prerendering page "/500". Read more: https://nextjs.org/docs/messages/prerender-error
+TypeError: Cannot read properties of null (reading 'useContext')
+    at exports.useContext (C:\Users\aryan\Web Development\game-spec\2D-metaverse\node_modules\react\cjs\react.production.min.js:24:495)
+    at StyleRegistry (C:\Users\aryan\Web Development\game-spec\2D-metaverse\node_modules\styled-jsx\dist\index\index.js:450:30)
+    at renderWithHooks (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\react-dom\cjs\react-dom-server.edge.production.
+[11;150H.js:4189:18)
+    at renderElement (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\react-dom\cjs\react-dom-server.edge.production.js
+[11;150Hs:4327:14)
+    at retryNode (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\react-dom\cjs\react-dom-server.edge.production.js:487
+[11;150H71:16)
+    at renderNodeDestructive (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\react-dom\cjs\react-dom-server.edge.produ
+[11;150Huction.js:4689:7)
+    at renderElement (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\react-dom\cjs\react-dom-server.edge.production.js
+[11;150Hs:4623:11)
+    at retryNode (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\react-dom\cjs\react-dom-server.edge.production.js:487
+[11;150H71:16)
+    at renderNodeDestructive (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\react-dom\cjs\react-dom-server.edge.produ
+[11;150Huction.js:4689:7)
+    at renderElement (C:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client\node_modules\react-dom\cjs\react-dom-server.edge.production.js
+[11;150Hs:4623:11)
+Export encountered an error on /_error: /500, exiting the build.
+ [31m[1m⨯[m Static worker exited with code: 1 and signal: null[K
+[1mnpm[22m [31merror [mLifecycle script `build` failed with error:[K
+[1mnpm[22m [31merror [94mcode [33m1[K[m
+[1mnpm[22m [31merror [94mpath [mC:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client[K
+[1mnpm[22m [31merror [94mworkspace [mclient@0.1.0[K
+[1mnpm[22m [31merror [94mlocation [mC:\Users\aryan\Web Development\game-spec\2D-metaverse\apps\client[K
+[1mnpm[22m [31merror [mcommand failed[K
+[1mnpm[22m [31merror [94mcommand [mC:\WINDOWS\system32\cmd.exe /d /s /c next build[K
