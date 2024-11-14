@@ -1,5 +1,5 @@
 "use client";
-
+import axios from "axios";
 import { useState } from "react";
 import { Github, Twitter, Globe } from "lucide-react";
 import { Card } from "@/components/ui/card";
@@ -7,29 +7,33 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { BackgroundLines } from "@/components/ui/background-lines";
+import 
 
 export default function LandingPage() {
   const [isLoading, setIsLoading] = useState(false);
-  const [email, setEmail] = useState("");
+  const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [isSignUp, setIsSignUp] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
-    // Simulate API call
-    setTimeout(() => {
-      console.log(`${isSignUp ? "Sign up" : "Sign in"} with:`, {
-        email,
+
+    const response = await axios.post(
+      `${process.env.BACKEND_URL}/user/signup`,
+      {
+        username,
         password,
-      });
-      setIsLoading(false);
-    }, 2000);
+        type: "user",
+      }
+    );
+    if(response.status == 200){
+      
+    }
   };
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-sky-300 relative overflow-hidden">
-       
       {/* Main content */}
       <BackgroundLines className="flex items-center justify-center w-full flex-col px-4 bg-sky-300">
         <div className="z-10">
@@ -50,17 +54,17 @@ export default function LandingPage() {
             <form onSubmit={handleSubmit} className="space-y-4">
               <div className="text-left">
                 <Label
-                  htmlFor="email"
+                  htmlFor="username"
                   className="text-teal-500 pixel-font text-xs"
                 >
-                  Email
+                  Username
                 </Label>
                 <Input
-                  id="email"
-                  type="email"
-                  placeholder="Enter your email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
+                  id="username"
+                  type="username"
+                  placeholder="Enter your username"
+                  value={username}
+                  onChange={(e) => setUsername(e.target.value)}
                   className="bg-gray-800 text-white border-teal-500 pixel-font text-sm h-8"
                   required
                 />
@@ -113,11 +117,8 @@ export default function LandingPage() {
               </div>
             )}
           </Card>
-          
         </div>
-        
       </BackgroundLines>
-      
 
       {/* Social links */}
       <div className="fixed bottom-4 right-4 flex gap-4">
