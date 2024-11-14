@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { BackgroundLines } from "@/components/ui/background-lines";
-import 
+import toast from "react-hot-toast";
 
 export default function LandingPage() {
   const [isLoading, setIsLoading] = useState(false);
@@ -18,17 +18,52 @@ export default function LandingPage() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
-
-    const response = await axios.post(
-      `${process.env.BACKEND_URL}/user/signup`,
-      {
-        username,
-        password,
-        type: "user",
+    try {
+      if (isSignUp) {
+        const response = await axios.post(
+          `${process.env.NEXT_PUBLIC_BACKEND_URL}/user/signup`,
+          {
+            username,
+            password,
+            type: "user",
+          }
+        );
+        if (response.status === 200) {
+          toast.success("User signed up successfully");
+        } else {
+          toast.error("Error creating user");
+        }
+      } else {
+        const response = await axios.post(
+          `${process.env.NEXT_PUBLIC_BACKEND_URL}/user/signin`,
+          {
+            username,
+            password,
+          }
+        );
+        if (response.status === 200) {
+          toast.success("Sign-in success");
+          localStorage.setItem("token", response.data);
+        } else {
+          toast.error("Sign-in failed");
+        }
       }
-    );
-    if(response.status == 200){
-      
+    } catch (error : any) {
+     
+      if (error.response && error.response.status === 400) {
+        if (error.response.data.message === "User doesn't exist") {
+          toast.error("User does not exist. Please sign up.");
+        } else if (error.response.data.message === "Incorrect password") {
+          toast.error("Incorrect password. Please try again.");
+        } else {
+          toast.error("Sign-in error. Please try again.");
+        }
+      } else {
+        
+        toast.error("An error occurred. Please try again.");
+      }
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -123,13 +158,13 @@ export default function LandingPage() {
       {/* Social links */}
       <div className="fixed bottom-4 right-4 flex gap-4">
         <a
-          href="#"
+          href="https://github.com/aryanpachori/game-spec"
           className="text-gray-900 hover:text-teal-500 transition-colors"
         >
           <Github className="w-6 h-6" />
         </a>
         <a
-          href="#"
+          href="https://x.com/aryan42116"
           className="text-gray-900 hover:text-teal-500 transition-colors"
         >
           <Twitter className="w-6 h-6" />

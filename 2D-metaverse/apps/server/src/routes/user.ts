@@ -4,7 +4,7 @@ import PrismaClient from "@repo/db/client";
 import jwt from "jsonwebtoken";
 import { compare, hash } from "../scrypt";
 import { configDotenv } from "dotenv";
-configDotenv()
+configDotenv();
 const router = Router();
 
 const prisma = new PrismaClient();
@@ -23,13 +23,7 @@ router.post("/signup", async (req, res) => {
         role: ParsedData.data.type === "admin" ? "Admin" : "User",
       },
     });
-    const payload = {
-      userId: user.id,
-      role: user.role,
-    };
-    
-    const token = jwt.sign(payload, process.env.JWT_SECRET!);
-    res.json(token);
+    res.json(user);
     return;
   } catch (e) {
     console.log(e);
@@ -44,9 +38,9 @@ router.post("/signin", async (req, res) => {
     return;
   }
   try {
-    const user = await prisma.user.findFirst({
+    const user = await prisma.user.findUnique({
       where: {
-        id: ParsedData.data?.username,
+        username: ParsedData.data.username,
       },
     });
     if (!user) {
