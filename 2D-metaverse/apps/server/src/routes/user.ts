@@ -4,6 +4,7 @@ import PrismaClient from "@repo/db/client";
 import jwt from "jsonwebtoken";
 import { compare, hash } from "../scrypt";
 import { configDotenv } from "dotenv";
+import { userMiddleware } from "../middlewares/user";
 configDotenv();
 const router = Router();
 
@@ -64,5 +65,11 @@ router.post("/signin", async (req, res) => {
     res.status(400).json({ message: "user not found" });
   }
 });
+
+router.post("/metadata",userMiddleware,(req,res)=>{
+  //@ts-ignore
+    const userId = req.userId
+})
+
 
 export default router;
